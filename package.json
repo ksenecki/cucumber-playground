@@ -6,7 +6,8 @@
   "scripts": {
     "prettier": "prettier --write .",
     "prepare": "husky install",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "./node_modules/.bin/cucumber-js --require cucumber.js --require step-definitions/**/*.js -f json:cucumber_report.json --publish-quiet"
   },
   "repository": {
     "type": "git",
@@ -25,8 +26,7 @@
   "homepage": "https://github.com/ksenecki/cucumber-playground#readme",
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^3.3.1",
-    "@typescript-eslint/eslint-plugin": "^5.40.0",
-    "@typescript-eslint/parser": "^5.40.0",
+    "@types/node": "^18.8.5",
     "eslint": "^8.25.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.31.10",
@@ -37,5 +37,13 @@
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^8.6.0",
+    "@types/chai": "^4.3.3",
+    "chai": "^4.3.6",
+    "cucumber-html-reporter": "^5.5.0",
+    "mkdirp": "^1.0.4",
+    "playwright": "^1.27.1"
   }
 }

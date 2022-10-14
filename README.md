@@ -11,7 +11,6 @@ This is Pandas Cucumber Playground
 1. Clone repository
 2. Enter the project directory and execute `npm install` in order to install all the packages
 
-## Install Playwright with npm
+## Install test framework with npm
 
-1. npm install @playwright/test
-2. npx playwright install
+1. Use native Playwright with Chai and cucumber: `npm install playwright chai @cucumber/cucumber cucumber-html-reporter`
