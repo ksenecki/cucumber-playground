@@ -1,6 +1,6 @@
 # cucumber-playground
 
-This is Pandas Cucumber Playground
+This is Pandas Cucumber Playground using `https://www.saucedemo.com/`
 
 ## Project requirements
 
@@ -14,3 +14,8 @@ This is Pandas Cucumber Playground
 ## Install test framework with npm
 
 1. Use native Playwright with Chai and cucumber: `npm install playwright chai @cucumber/cucumber cucumber-html-reporter`
+
+## Run Cucumber tests
+
+1. run `npm run test`
+2. create report `node reporter`
