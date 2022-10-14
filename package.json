@@ -1,0 +1,41 @@
+{
+  "name": "cucumber-playground",
+  "version": "1.0.0",
+  "description": "Pandas Cucumber Playground",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write .",
+    "prepare": "husky install",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksenecki/cucumber-playground.git"
+  },
+  "keywords": [
+    "cucumber",
+    "panda",
+    "playground"
+  ],
+  "author": "ksenecki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksenecki/cucumber-playground/issues"
+  },
+  "homepage": "https://github.com/ksenecki/cucumber-playground#readme",
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.31.10",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
+  }
+}
