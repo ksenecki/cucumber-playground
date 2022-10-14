@@ -1,0 +1,277 @@
+[
+  {
+    "description": "    As a user\n    I want to login into aplication",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-action;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 278888670
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I visit a login page",
+            "match": {
+              "location": "step-definitions/login-step.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 365241920
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I fill the login form with valid credentials",
+            "match": {
+              "location": "step-definitions/login-step.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 264456725
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the home page",
+            "match": {
+              "location": "step-definitions/login-step.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 137679673
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 52472394
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-action;try-to-login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Try to login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 87915147
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I visit a login page",
+            "match": {
+              "location": "step-definitions/login-step.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 397363930
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I fill the login form with 'invalidname1' and 'invalidpassword1'",
+            "match": {
+              "location": "step-definitions/login-step.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 173047859
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I see the login error",
+            "match": {
+              "location": "step-definitions/login-step.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12506128
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31287140
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-action;try-to-login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Try to login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 87036907
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I visit a login page",
+            "match": {
+              "location": "step-definitions/login-step.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 347407958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I fill the login form with 'invalidname2' and 'invalidpassword2'",
+            "match": {
+              "location": "step-definitions/login-step.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217939508
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I see the login error",
+            "match": {
+              "location": "step-definitions/login-step.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19172895
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 41804982
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-action;try-to-login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Try to login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 103176935
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I visit a login page",
+            "match": {
+              "location": "step-definitions/login-step.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 353023080
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I fill the login form with 'invalidname3' and 'invalidpassword3'",
+            "match": {
+              "location": "step-definitions/login-step.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171377046
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I see the login error",
+            "match": {
+              "location": "step-definitions/login-step.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19010981
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 43647856
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-action",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login action",
+    "tags": [],
+    "uri": "features/login.feature"
+  }
+]
